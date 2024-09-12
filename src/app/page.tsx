@@ -13,8 +13,9 @@ import Slider from "@/components/Slider";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
+  title: "Experten für Verchromen, Galvanisieren und Schweißen",
+  description:
+    "Restaurierung von allen Metallen mit modernster Technologie zu fairen Preisen",
   // other metadata
 };
 

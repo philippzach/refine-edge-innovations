@@ -30,7 +30,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
-                        placeholder="Enter your name"
+                        placeholder="Gib deinen Namen ein"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
@@ -45,7 +45,107 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
-                        placeholder="Enter your email"
+                        placeholder="Gib deine Email ein"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="phone"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Deine Telefonnummer
+                      </label>
+                      <input
+                        type="tel"
+                        placeholder="Gib deine Telefonnummer ein"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="metal"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Art von Metall
+                      </label>
+                      <select className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none">
+                        <option value="">Wähle eine Option</option>
+                        <option value="Stahl">Stahl</option>
+                        <option value="Edelstahl">Edelstahl</option>
+                        <option value="Aluminium">Aluminium</option>
+                        <option value="Messing">Messing</option>
+                        <option value="Bronze">Bronze</option>
+                        <option value="Kupfer">Kupfer</option>
+                        <option value="Zamak">Zamak</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label className="mb-3 flex items-center text-sm font-medium text-dark dark:text-white">
+                        <input type="checkbox" className="mr-2" />
+                        Lackiert?
+                      </label>
+                    </div>
+                  </div>
+                  <div className="w-full px-4 md:w-1/2">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="size"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Größe (in cm)
+                      </label>
+                      <div className="flex space-x-2">
+                        <input
+                          type="number"
+                          placeholder="Breite"
+                          className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                        />
+                        <input
+                          type="number"
+                          placeholder="Höhe"
+                          className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                        />
+                        <input
+                          type="number"
+                          placeholder="Länge"
+                          className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full px-4">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="description"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Beschreibung des Objekts
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Beschreibe kurz das Objekt"
+                        className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
+                      />
+                    </div>
+                  </div>
+                  <div className="w-full px-4">
+                    <div className="mb-8">
+                      <label
+                        htmlFor="picture"
+                        className="mb-3 block text-sm font-medium text-dark dark:text-white"
+                      >
+                        Bild des Objekts hochladen
+                      </label>
+                      <input
+                        type="file"
+                        accept="image/*"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
@@ -61,14 +161,14 @@ const Contact = () => {
                       <textarea
                         name="message"
                         rows={5}
-                        placeholder="Enter your Message"
+                        placeholder="Gib deine Nachricht ein"
                         className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       ></textarea>
                     </div>
                   </div>
                   <div className="w-full px-4">
                     <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                      Submit Ticket
+                      Gratis Angebot einfordern
                     </button>
                   </div>
                 </div>
