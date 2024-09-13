@@ -46,7 +46,7 @@ const featuresData: Feature[] = [
     paragraph:
       "Wir legen Wert auf Qualität und Kundenzufriedenheit. Egal, ob Sie ein einmaliges Projekt oder regelmäßige Dienstleistungen benötigen, wir stehen Ihnen mit unserer Fachkenntnis zur Seite. Kontaktieren Sie uns für ein individuelles Angebot und erleben Sie den Unterschied, den wahre Handwerkskunst machen kann.",
   },
-  {
+  /*  {
     id: 1,
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
@@ -90,6 +90,6 @@ const featuresData: Feature[] = [
     title: "Schweißen",
     paragraph:
       "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
-  },
+  }, */
 ];
 export default featuresData;

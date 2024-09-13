@@ -115,10 +115,10 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="https://wa.me/+49123456789"
+                      href="https://wa.me/+4915211805583"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      +49123456789
+                      +49 1521 1805583
                     </Link>
                   </li>
                   <li>
@@ -157,7 +157,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/about"
+                      href="/impressum"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Impressum

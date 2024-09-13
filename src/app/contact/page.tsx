@@ -15,7 +15,7 @@ const ContactPage = () => {
     <>
       <Breadcrumb
         pageName="Kontakt"
-        description="Kontaktieren Sie uns telefonisch +49123456789, per E-Mail unter refineedgeinnovations1@gmail.com oder füllen sie das Kontaktformular aus."
+        description="Kontaktieren Sie uns telefonisch +49 1521 1805583, per E-Mail unter refineedgeinnovations1@gmail.com oder füllen sie das Kontaktformular aus."
       />
 
       <Contact />
