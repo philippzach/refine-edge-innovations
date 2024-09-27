@@ -18,7 +18,7 @@ const Contact = () => {
                 Kontaktieren Sie uns für ein individuelles Angebot und erleben
                 Sie den Unterschied, den wahre Handwerkskunst machen kann.
               </p>
-              <form>
+              <form action="https://formspree.io/f/xanwrqar" method="POST">
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -135,7 +135,7 @@ const Contact = () => {
                       />
                     </div>
                   </div>
-                  <div className="w-full px-4">
+                  {/*  <div className="w-full px-4">
                     <div className="mb-8">
                       <label
                         htmlFor="picture"
@@ -149,7 +149,7 @@ const Contact = () => {
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
-                  </div>
+                  </div> */}
                   <div className="w-full px-4">
                     <div className="mb-8">
                       <label
@@ -167,7 +167,10 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
+                    <button
+                      type="submit"
+                      className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
+                    >
                       Gratis Angebot einfordern
                     </button>
                   </div>
