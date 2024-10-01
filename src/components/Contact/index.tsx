@@ -30,6 +30,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="name"
                         placeholder="Gib deinen Namen ein"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -45,6 +46,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        name="email"
                         placeholder="Gib deine Email ein"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -60,6 +62,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="tel"
+                        name="phone"
                         placeholder="Gib deine Telefonnummer ein"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -88,7 +91,11 @@ const Contact = () => {
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label className="mb-3 flex items-center text-sm font-medium text-dark dark:text-white">
-                        <input type="checkbox" className="mr-2" />
+                        <input
+                          type="checkbox"
+                          className="mr-2"
+                          name="lackiert"
+                        />
                         Lackiert?
                       </label>
                     </div>
@@ -104,16 +111,19 @@ const Contact = () => {
                       <div className="flex space-x-2">
                         <input
                           type="number"
+                          name="width"
                           placeholder="Breite"
                           className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         />
                         <input
                           type="number"
+                          name="height"
                           placeholder="Höhe"
                           className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         />
                         <input
                           type="number"
+                          name="length"
                           placeholder="Länge"
                           className="border-stroke w-1/3 rounded-sm border bg-[#f8f8f8] px-3 py-2 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         />
@@ -130,6 +140,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="text"
+                        name="description"
                         placeholder="Beschreibe kurz das Objekt"
                         className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
