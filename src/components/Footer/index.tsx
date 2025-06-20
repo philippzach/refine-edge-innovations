@@ -37,18 +37,18 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                   >
-                    <svg
-                      width="18"
-                      height="18"
-                      viewBox="0 0 22 22"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
-                        fill="currentColor"
-                      />
-                    </svg>
+                    {/* <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 22 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.1 10.4939V7.42705C12.1 6.23984 13.085 5.27741 14.3 5.27741H16.5V2.05296L13.5135 1.84452C10.9664 1.66676 8.8 3.63781 8.8 6.13287V10.4939H5.5V13.7183H8.8V20.1667H12.1V13.7183H15.4L16.5 10.4939H12.1Z"
+                          fill="currentColor"
+                        />
+                      </svg> */}
                   </a>
                   <a
                     href="/"
@@ -123,10 +123,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="mailto:refineedgeinnovations1@gmail.com"
+                      href="mailto:info@verchromen.eu"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      refineedgeinnovations1@gmail.com
+                      info@verchromen.eu
                     </Link>
                   </li>
                 </ul>
@@ -136,7 +136,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-full md:w-full lg:ml-auto lg:w-4/12 xl:w-4/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Refine Edge Innovations
+                  Verchromen.eu
                 </h2>
                 <ul className="flex flex-col items-start">
                   <li>

@@ -3,7 +3,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Refine Edge Innovations",
+  title: "Verchromen.eu",
   description:
     "Ihr professioneller Ansprechpartner für die Restaurierung aller Arten von Metallen, jeglicher Art und Größe",
   // other metadata
@@ -13,7 +13,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Refine Edge Innovations"
+        pageName="Verchromen.eu"
         description="Ihr professioneller Ansprechpartner für die Restaurierung aller Arten von Metallen, jeglicher Art und Größe."
       />
       <div className="container">
@@ -37,7 +37,7 @@ const AboutPage = () => {
             Kontakt
           </h2>
           <p className="text-base font-medium leading-relaxed text-body-color">
-            E-Mail: refineedgeinnovations1@gmail.com
+            E-Mail: Info@verchromen.eu
             <br />
             Telefonnummer / Whatsapp: +49 1521 1805583
           </p>

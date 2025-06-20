@@ -5,7 +5,7 @@ import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Refine Edge Innovations",
+  title: "VERCHROMEN.EU",
   description:
     "Ihr professioneller Ansprechpartner für die Restaurierung aller Arten von Metallen, jeglicher Art und Größe",
   // other metadata
@@ -15,7 +15,7 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Refine Edge Innovations"
+        pageName="Verchromen.eu"
         description="Ihr professioneller Ansprechpartner für die Restaurierung aller Arten von Metallen, jeglicher Art und Größe."
       />
       <AboutSectionOne />
